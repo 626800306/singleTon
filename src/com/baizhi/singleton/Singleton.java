@@ -5,7 +5,7 @@ package com.baizhi.singleton;
  * @date 2018/12/13 - 20:35
  */
 public class Singleton {
-    //它是饿汉式单例模式
+    //添加了恶汉式单例模式
 
     //自己私有化对象
     private static final Singleton SINGLETON = new Singleton();
